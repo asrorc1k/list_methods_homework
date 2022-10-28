@@ -6,4 +6,9 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    zeros = list1.count(0) 
+    ones = list1.count(1)
+    list0= [ones,zeros]
+    
+    
+    return list0
